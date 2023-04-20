@@ -1,5 +1,5 @@
 header{
-    background-color:salmon;
+    background-color:red;
     position: fixed;
     top: 0;
     left: 0;
@@ -14,18 +14,18 @@ justify-content: space-around;
 
 li{
     list-style:none;
-    transition: transform 0.3s;
+    transition: transform 1s;
 }
 
 li:hover{
     transform: translate(10px);
 }
 a{
-    color: black;
+    color: white;
 }
 
 a:hover{
-    color:yellow;
+    color: yellow;
 }
 
 main{
@@ -35,7 +35,7 @@ main{
 .cube{
     width: 300px;
     height: 300px;
-    background-color: blueviolet;
+    background-color: darkmagenta;
     position: relative;
 }
 
@@ -73,7 +73,7 @@ ul {
     top: 100%;
     left: 0;
     flex-direction: column;
-    background-color: pink;
+    background-color: red;
     width: 100vw;
     margin: 0;
     padding-left: 0;
